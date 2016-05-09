@@ -470,6 +470,7 @@
     <Compile Include="Wave\WaveStreams\CueList.cs" />
     <Compile Include="Wave\WaveStreams\CueWaveFileReader.cs" />
     <Compile Include="Wave\WaveStreams\ISampleNotifier.cs" />
+    <Compile Include="Wave\WaveStreams\LoopStream.cs" />
     <Compile Include="Wave\WaveStreams\MediaFoundationReader.cs" />
     <Compile Include="Wave\WaveStreams\Mp3FileReader.cs" />
     <Compile Include="Wave\SampleProviders\Pcm16BitToSampleProvider.cs" />
