@@ -1,3 +1,7 @@
+# BUILD
+You need the winows 10 dev kit.  Head to programs and features, modify, and select it.  THen run the batch file
+
+
 NAudio is an open source .NET audio library written by Mark Heath (mark.heath@gmail.com)
 We're currently in the process of migrating from CodePlex. 
 For now, if you are looking for help and documentation, visit http://naudio.codeplex.com. 

@@ -5,14 +5,11 @@ using System.Text;
 
 
 
-/// <summary>
-/// Written by Sam Seifert
-/// An interesting take to speed up and slow down Wav Files dynamically
-/// </summary>
 namespace NAudio.Wave
 {
     /// <summary>
-    /// Stream for looping playback
+    /// Written by Sam Seifert
+    /// An interesting take to speed up and slow down Wav Files dynamically
     /// </summary>
     public class LoopStream : WaveStream
     {
@@ -78,7 +75,9 @@ namespace NAudio.Wave
         {
             if (false)
             {
+#pragma warning disable CS0162 
                 int totalBytesRead = 0;
+#pragma warning restore CS0162 
 
                 while (totalBytesRead < count)
                 {
